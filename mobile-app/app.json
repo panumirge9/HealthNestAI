@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "HealthNestAI",
+    "slug": "healthnest-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#16a34a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.healthnest.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#16a34a"
+      },
+      "package": "com.healthnest.ai"
+    },
+    "extra": {
+      "apiUrl": "http://10.0.2.2:8000"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
